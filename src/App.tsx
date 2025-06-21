@@ -53,8 +53,7 @@ import {useNavigate} from 'react-router-dom';
 											<label style={{ fontSize: '13px' }}>Selecciona el delimitador:</label>
 											<select
 												{...register('delimiter', { required: true })}
-												style={{ width: '100%', padding: '5px', fontSize: '13px' }}
-											>
+												style={{ width: '100%', padding: '5px', fontSize: '13px' }}>
 												<option value=";">Punto y coma (;)</option>
 												<option value=",">Coma (,)</option>
 												<option value="\t">Tabulación (\t)</option>
